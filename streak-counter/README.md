@@ -1,0 +1,1 @@
+Similar to Duolingo, we're building a streak counter library
