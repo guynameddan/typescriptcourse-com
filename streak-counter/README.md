@@ -14,15 +14,36 @@ blah blah blah
 
 ## Getting Started (Installation)
 
-blah blah blah
+```shell
+yarn add @guynameddan/streak-counter
+```
 
-## Examples
+```shell
+npm install @guynameddan/streak-counter
+```
 
-blah blah blah
+## Usage/Examples
+
+```typescript
+import { streakCounter } from "@guynameddan/streak-counter";
+
+const date = new Date();
+const streak = streakCounter(localStorage, today);
+//
+// streak returns an object
+// {
+//     currentCount: 1,
+//     lastLogInDate: "10/25/2023",
+//     startDate: "10/25/2023"
+// }
+//
+```
 
 ## Contact
 
-blah blah blah
+GitHub
+Twitter
+LinkedIn
 
 ## Acknowledgments
 
